@@ -6,16 +6,7 @@ body {
     background: linear-gradient(to bottom, #1c65be, #0656b1);
     color: #333;
   }
-    font-family: "Aleo", serif;
-    font-optical-sizing: auto;
-    font-weight: <weight>;
-    font-style: normal ;
-    }
-    margin: 0;
-    padding: 0;
-    background-color: #f0f8ff;
-    color: #333;
-}
+    
 
 /* Header */
 #main-header {
