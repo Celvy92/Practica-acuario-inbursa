@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Acuario Inbursa Virtual</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header id="main-header">
+        <h1>🌊 Acuario Inbursa Virtual 🌊</h1>
+        <p id="eslogan">¡Vive la magia del océano sin salir de casa!</p>
+    </header>
+    
+    <nav id="main-nav">
+        <a href="#entradas">Entradas</a>
+        <a href="#experiencias">Experiencias</a>
+        <a href="#terminos">Términos y Condiciones</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+    
+    <main id="main-content">
+        <!-- Banner -->
+        <section id="banner">
+            <img src="./img inbursa/Acuario-Inbursa.jpg" alt="Explora el mundo marino">
+        </section>
+
+        <!-- Compra de Entradas -->
+        <section id="entradas" class="recuadro-interactivo">
+            <h2>🎟️ Compra tus Entradas</h2>
+            <p>Selecciona la cantidad de entradas:</p>
+            <form>
+                <label for="cantidad">Cantidad:</label>
+                <input type="number" id="cantidad" name="cantidad" min="1" max="10">
+                
+                <label for="fecha">Elige tu fecha:</label>
+                <input type="date" id="fecha" name="fecha">
+                
+                <label for="horario">Horario:</label>
+                <select id="horario" name="horario">
+                    <option>10:00 AM</option>
+                    <option>12:00 PM</option>
+                    <option>2:00 PM</option>
+                    <option>4:00 PM</option>
+                </select>
+                
+                <button type="submit">Comprar</button>
+            </form>
+        </section>
+
+        <!-- Experiencias -->
+        <section id="experiencias">
+            <h2>✨ Experiencias Únicas</h2>
+            <div class="experiencia recuadro-interactivo">
+                <img src="./img inbursa/pinguinos.jpg" alt="Convivir con pingüinos">
+                <h3>Convivir con Pingüinos</h3>
+                <p>¡Vive la emoción de interactuar con pingüinos en su hábitat natural! Aprende sobre su comportamiento y disfruta de una experiencia única.</p>
+            </div>
+            <div class="experiencia recuadro-interactivo">
+                <img src="./img inbursa/buceo.jpg" alt="Buceo Guiado">
+                <h3>Buceo Guiado</h3>
+                <p>Sumérgete en las aguas del océano y explora el mundo submarino, acompañado por expertos que te guiarán en una aventura increíble.</p>
+            </div>
+            <div class="experiencia recuadro-interactivo">
+                <img src="./img inbursa/vertical_520_780.jpg" alt="Interacción con Delfines">
+                <h3>Interacción con Delfines</h3>
+                <p>Disfruta de una experiencia única nadando y jugando con delfines en un entorno controlado y seguro.</p>
+            </div>
+            <div class="experiencia recuadro-interactivo">
+                <img src="./img inbursa/tour.jpg" alt="Tour Nocturno">
+                <h3>Tour Nocturno Exclusivo</h3>
+                <p>Explora el acuario de noche y observa cómo se comportan los animales bajo las luces. ¡Una experiencia mágica e irrepetible!</p>
+            </div>
+            <div class="experiencia recuadro-interactivo">
+                <img src="./img inbursa/museo.jpg" alt="Laboratorio Marino para Niños">
+                <h3>Laboratorio Marino para Niños</h3>
+                <p>Una actividad educativa en donde los más pequeños aprenden sobre la vida marina a través de actividades prácticas y divertidas.</p>
+            </div>
+        </section>
+
+        <!-- Términos y Condiciones -->
+        <section id="terminos">
+            <h2>📜 Términos y Condiciones</h2>
+            <p>Las entradas incluyen acceso completo al acuario, shows interactivos y uso de instalaciones. Las experiencias adicionales requieren reservación previa. Las tarifas varían según la temporada y la disponibilidad.</p>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer id="contacto">
+        <p>Síguenos en nuestras redes sociales:</p>
+        <ul>
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Instagram</a></li>
+            <li><a href="#">Twitter</a></li>
+        </ul>
+        <p>📜 Aviso de privacidad</p>
+    </footer>
+</body>
+</html>
+
