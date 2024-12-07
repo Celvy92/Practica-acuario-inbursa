@@ -1,74 +1,52 @@
-# 🌊 Acuario Inbursa Virtual 🌊
+# Proyecto Acuario Inbursa
 
-**¡Explora la magia del océano desde cualquier lugar!**  
-Este proyecto representa una página web interactiva y visualmente atractiva inspirada en el Acuario Inbursa ubicado en Ciudad de México. La página ofrece opciones para comprar entradas, descubrir experiencias únicas y conocer más sobre la vida marina.  
+## Descripción
+Este es un proyecto escolar realizado en la escuela **dev.f**, enfocado en crear una página web interactiva para el **Acuario Inbursa** ubicado en la Ciudad de México (CDMX). El objetivo principal del proyecto es proporcionar a los usuarios una plataforma visualmente atractiva y fácil de usar para conocer las experiencias disponibles en el acuario, comprar entradas, y acceder a la información relevante sobre el lugar, como términos y condiciones, historia, y más.
 
-## 📋 Características del Proyecto
+### Tecnologías utilizadas:
+- **HTML5**: Para la estructura básica de la página.
+- **CSS3**: Para el diseño y estilo de la página, incluyendo animaciones y efectos visuales.
+- **JavaScript**: Para funcionalidades interactivas como el banner de compras y la implementación de mapas.
+- **Git y GitHub**: Para el control de versiones y el alojamiento del proyecto.
+  
+## Funcionalidades principales
 
-- **Diseño llamativo:** Uso de colores y degradados alusivos al mar para un ambiente inmersivo.
-- **Interactividad:** 
-  - Recuadros interactivos con animaciones al pasar el cursor.
-  - Formularios funcionales para la selección de entradas y horarios.
-- **Experiencias destacadas:** Sección dedicada a actividades únicas como convivir con pingüinos, buceo guiado, interacción con delfines y más.
-- **Uso de tecnologías web modernas:** Aplicación de `HTML` y `CSS` con selectores avanzados y pseudoclases.
+- **Página principal interactiva**: Ofrece información sobre las experiencias disponibles en el Acuario Inbursa, con secciones como "Experiencias Únicas", "Compra tus Entradas", "Términos y Condiciones", entre otras.
+- **Compra de entradas**: Permite a los usuarios elegir el tipo de entrada y ver un calendario con los horarios disponibles.
+- **Efectos visuales**: El sitio cuenta con un fondo de partículas animadas (burbujas), que mejoran la experiencia del usuario y le dan un toque único.
+- **Reseñas de usuarios**: Incluye una sección de comentarios y valoraciones de 5 estrellas para cada experiencia en el acuario.
+- **Redes Sociales**: Iconos de redes sociales para compartir la información o contactar con el acuario.
+- **Videos y multimedia**: Integración de videos de YouTube relacionados con el acuario y sus experiencias.
 
----
+## Páginas complementarias
 
-## 🛠️ Tecnologías Utilizadas
+1. **Experiencias**: Información detallada sobre las experiencias ofrecidas en el acuario, como convivir con pingüinos, buceo, entre otras.
+2. **Términos y Condiciones**: Explicación legal y política de compra de entradas, condiciones de uso y más.
+3. **Sobre nosotros**: Historia breve del Acuario Inbursa y su misión.
+4. **Contacto**: Formulario para contacto y mapa interactivo de ubicación.
 
-- **HTML5:** Para la estructura de la página.
-- **CSS3:** Para el diseño visual, colores, y efectos interactivos.
+## Requisitos
 
----
+Este proyecto fue desarrollado como parte de un curso de desarrollo web en **dev.f**. No requiere ninguna instalación especial para ser visualizado. Solo necesitas un navegador web moderno para abrir el archivo `index.html`.
 
-## 🎨 Estilo y Diseño
+## Instrucciones de uso
 
-### Colores Utilizados
-- **Azul Marino:** `#004c6d` (Fondo de navegación y títulos).  
-- **Azul Claro:** `#00b4d8` (Botones y degradados).  
-- **Blanco:** `white` (Textos).  
-- **RGBA:** `rgba(0, 85, 127, 0.8)` (Fondos translúcidos en recuadros).  
+1. Clona este repositorio en tu máquina local o abre la página directamente desde el navegador utilizando el archivo `index.html`.
+2. Navega entre las secciones de la página, interactúa con el contenido y disfruta de la experiencia visual y funcional del acuario.
 
-### Elementos Destacados
-- **Degradados:** Fondo general y encabezado con transiciones suaves entre tonos azules.  
-- **Efectos de Hover:** Los recuadros interactivos y enlaces cambian de tamaño y color al pasar el cursor.  
-- **Tipografía Elegante:** Uso de fuentes serif y sans-serif para destacar títulos y mantener la legibilidad.
+## Instalación (Opcional)
 
----
+Si deseas trabajar con el código localmente en tu máquina:
 
-## 🚀 Cómo Usar el Proyecto
-
-1. **Clona el repositorio:**
+1. Clona este repositorio:
    ```bash
-   git clone https://github.com/tu-usuario/acuario-inbursa-virtual.git
+   git clone https://github.com/tu_usuario/tu_repositorio.git
+## Créditos
 
----
+Este proyecto fue desarrollado por **Celeste Vianey Hernández Arauz** como parte del curso de desarrollo web en **dev.f**.
 
-## 📂 Estructura del Proyecto
+Puedes contactarme a través de mi correo: [celeste.ipn92@gmail.com]
 
-
----
-
-## 🎨 Estilo y Diseño
-
-### Colores Utilizados
-- **Azul Marino:** `#004c6d` (Fondo de navegación y títulos).  
-- **Azul Claro:** `#00b4d8` (Botones y degradados).  
-- **Blanco:** `white` (Textos).  
-- **RGBA:** `rgba(0, 85, 127, 0.8)` (Fondos translúcidos en recuadros).  
-
-### Elementos Destacados
-- **Degradados:** Fondo general y encabezado con transiciones suaves entre tonos azules.  
-- **Efectos de Hover:** Los recuadros interactivos y enlaces cambian de tamaño y color al pasar el cursor.  
-- **Tipografía Elegante:** Uso de fuentes serif y sans-serif para destacar títulos y mantener la legibilidad.
-
----
-
-## 🚀 Cómo Usar el Proyecto
-
-1. **Clona el repositorio:**
-   ```bash
-   git clone https://github.com/tu-usuario/acuario-inbursa-virtual.git
-💻 Desarrollado por:
-[@Celvy92]
-Correo: [celeste.ipn92@gmail.com]
+## Licencia
+@Celvy92
+Este proyecto es de uso educativo y está bajo la licencia **MIT**.
