@@ -21,6 +21,39 @@ body {
     font-family: 'Georgia', serif;
     margin: 0;
 }
+/* Encabezado principal */
+#main-header h1 {
+    color: white;
+    font-size: 4rem; /* Tamaño más grande para destacar el título */
+    font-weight: bold; /* Mantiene el texto llamativo */
+    text-align: center;
+    margin: 0;
+}
+
+/* Eslogan */
+#main-header #eslogan {
+    color: white;
+    font-size: 2rem; /* Más grande para mayor impacto visual */
+    font-style: italic; /* Mantiene el toque estilizado */
+    text-align: center;
+    margin-top: 0.5rem;
+}
+
+/* Enlaces del menú de navegación */
+#main-nav a {
+    color: white;
+    font-size: 1.5rem; /* Aumenta aún más el tamaño de los enlaces */
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    display: inline-block;
+    transition: color 0.3s ease, background-color 0.3s ease; /* Efecto suave */
+}
+
+#main-nav a:hover {
+    color: #00bfff; /* Efecto visual al pasar el cursor */
+    background-color: rgba(255, 255, 255, 0.1); /* Fondo sutil en hover */
+}
+
 
 #eslogan {
     font-size: 1.5em;
@@ -405,4 +438,18 @@ body {
     padding: 0;
     background-color: #f0f0f0;
     color: #333;
+}
+.contenedor {
+    font-family: 'Verdana', sans-serif;
+    color: blue;
+}
+
+.contenedor h2 {
+    font-size: 2rem;
+    /* Aquí, el color azul y la fuente son heredados de .contenedor */
+}
+
+.contenedor p {
+    /* Hereda tanto el color como la fuente del .contenedor */
+    font-size: 1rem;
 }
