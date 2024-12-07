@@ -113,3 +113,58 @@ footer a {
 footer a:hover {
     text-decoration: underline;
 }
+/* Centrar los recuadros */
+.experiencias-contenedor {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: flex-start; /* Alinea verticalmente al inicio */
+    flex-wrap: wrap; /* Permite que los recuadros se ajusten si no caben */
+    gap: 20px; /* Espaciado entre recuadros */
+    margin: 20px auto; /* Centra el contenedor completo */
+    max-width: 1200px; /* Tamaño máximo del contenedor */
+}
+
+/* Estilos para las tarjetas de experiencias */
+.experiencia {
+    background-color: rgba(0, 85, 127, 0.8); /* Fondo translúcido */
+    color: white;
+    width: 300px; /* Tamaño uniforme para las tarjetas */
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    text-align: center; /* Centra el contenido de la tarjeta */
+    transition: transform 0.3s ease-in-out; /* Animación */
+}
+
+/* Tamaño uniforme para imágenes */
+.experiencia img {
+    width: 100%; /* Ocupa el ancho completo del contenedor */
+    height: 200px; /* Altura fija */
+    object-fit: cover; /* Recorta y ajusta la imagen al contenedor */
+    border-radius: 5px;
+}
+
+/* Estilo del botón "Descubre más" */
+.descubre-mas {
+    margin-top: 10px;
+    background-color: #00b4d8; /* Azul claro */
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+/* Efectos al interactuar con el botón */
+.descubre-mas:hover {
+    background-color: #0077a3; /* Oscurece al pasar el cursor */
+    transform: scale(1.05); /* Aumenta ligeramente el tamaño */
+}
+
+/* Efecto hover en las tarjetas */
+.experiencia:hover {
+    transform: translateY(-5px); /* Eleva la tarjeta al pasar el cursor */
+    box-shadow: 0 8px 10px rgba(0, 0, 0, 0.2); /* Sombra más pronunciada */
+}
