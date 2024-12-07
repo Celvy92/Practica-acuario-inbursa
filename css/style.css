@@ -374,3 +374,17 @@ marquee {
 .iconos-redes a img:hover {
     transform: scale(1.2);
 }
+#mapa {
+    text-align: center;
+    margin: 50px 0;
+}
+
+#mapa h2 {
+    font-size: 2rem;
+    color: #0d47a1;
+}
+
+#mapa p {
+    font-size: 1.2rem;
+    color: #5f9ea0;
+}
