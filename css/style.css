@@ -507,3 +507,17 @@ body {
     color: white; /* Color de texto blanco */
     margin-top: 10px;
 }
+/* Estilo para el título de "Experiencias Únicas" */
+.titulo-experiencias {
+    text-align: center;  /* Alineación centrada */
+    width: 100%;
+    margin-bottom: 20px; /* Espacio debajo del título */
+}
+
+.titulo-experiencias h2 {
+    font-size: 2em; /* Tamaño de fuente */
+    color: white; /* Color blanco */
+    background-color: #007BFF; /* Fondo azul para resaltar */
+    padding: 10px 0; /* Espaciado alrededor del texto */
+    border-radius: 5px;
+}
