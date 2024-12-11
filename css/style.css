@@ -521,3 +521,93 @@ body {
     padding: 10px 0; /* Espaciado alrededor del texto */
     border-radius: 5px;
 }
+/* Contenedor del banner */
+.banner-container {
+    position: relative; /* Necesario para que los elementos dentro puedan moverse */
+    width: 1023px;      /* Mantén el ancho fijo del banner */
+    height: 682px;      /* Mantén la altura del banner */
+    overflow: hidden;   /* Esconde las imágenes que se desborden del contenedor */
+}
+
+/* Contenedor de las imágenes deslizando */
+.banner-slide {
+    display: flex;              /* Flexbox para alinear las imágenes horizontalmente */
+    position: absolute;         /* Permite mover las imágenes */
+    width: 300%;                /* Ancho suficiente para tres imágenes */
+    animation: slide 9s infinite; /* Animación para mover las imágenes */
+}
+
+/* Estilo de cada imagen */
+.banner-image {
+    width: 1023px;   /* Ancho de cada imagen */
+    height: 682px;   /* Altura de cada imagen */
+    object-fit: cover; /* Mantiene la proporción de la imagen */
+}
+
+/* Animación de desplazamiento de las imágenes */
+@keyframes slide {
+    0% {
+        transform: translateX(0); /* Inicia en la primera imagen */
+    }
+    33.33% {
+        transform: translateX(-1023px); /* Mueve la primera imagen fuera del contenedor */
+    }
+    66.66% {
+        transform: translateX(-2046px); /* Mueve la segunda imagen fuera del contenedor */
+    }
+    100% {
+        transform: translateX(0); /* Regresa a la posición inicial */
+    }
+}
+body {
+    margin: 0; /* Elimina cualquier margen por defecto */
+    padding: 0; /* Elimina cualquier relleno por defecto */
+    overflow-x: hidden; /* Evita el desbordamiento horizontal */
+}
+
+.banner-container {
+    width: 100%; /* Asegura que el contenedor del banner ocupe el 100% del ancho de la pantalla */
+    overflow: hidden; /* Oculta cualquier contenido fuera del contenedor */
+}
+
+.banner-slide {
+    display: flex; /* Flexbox para alinear las imágenes en línea */
+    width: 300%; /* El ancho total de las 3 imágenes (3 * 100%) */
+    animation: slide 9s infinite; /* Animación para deslizar las imágenes */
+}
+
+.banner-image {
+    width: 33.33%; /* Cada imagen ocupa un tercio del ancho total del contenedor */
+    object-fit: cover; /* Hace que las imágenes se ajusten sin deformarse */
+}
+
+/* Animación para el deslizamiento */
+@keyframes slide {
+    0% {
+        transform: translateX(0);
+    }
+    33.33% {
+        transform: translateX(-33.33%);
+    }
+    66.66% {
+        transform: translateX(-66.66%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+/* Ajustes para dispositivos móviles */
+@media (max-width: 768px) {
+    .banner-container {
+        width: 100%; /* Asegura que el contenedor ocupe el 100% del ancho en móviles */
+    }
+
+    .banner-slide {
+        width: 300%; /* Mantiene el mismo tamaño de las imágenes en móviles */
+    }
+
+    .banner-image {
+        width: 100%; /* Las imágenes ocuparán todo el ancho disponible */
+    }
+}
