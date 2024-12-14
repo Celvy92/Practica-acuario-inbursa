@@ -688,4 +688,26 @@ button {
         font-size: 1.2rem;
     }
 }
+/* Estilos para el apartado de Compra de Entradas */
+#entradas {
+    font-size: 1.2em;  /* Tamaño adecuado para el texto del contenedor */
+}
+
+#entradas h2 {
+    font-size: 2em;  /* Tamaño adecuado para el título */
+}
+
+#entradas p {
+    font-size: 1.3em;  /* Tamaño adecuado para el párrafo */
+}
+
+#entradas label,
+#entradas input,
+#entradas select {
+    font-size: 1.1em;  /* Tamaño adecuado para las etiquetas y campos */
+}
+
+#entradas button {
+    font-size: 1.3em;  /* Tamaño adecuado para el botón */
+}
 
